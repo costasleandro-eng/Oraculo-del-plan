@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Oráculo del Plan</title>
+  <meta name="description" content="Un juego rápido para cambiar de opinión en un plan. Entretenimiento + magia con porcentajes." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">🔮</div>
+      <div>
+        <div class="title">Oráculo del Plan</div>
+        <div class="subtitle">Cambiar de opinión en un plan, sin drama</div>
+      </div>
+    </div>
+
+    <div class="top-actions">
+      <button id="btn-reset" class="btn btn-ghost" type="button" title="Reiniciar">Reiniciar</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="app" class="card" aria-live="polite"></section>
+
+    <footer class="footer">
+      <div class="privacy">
+        Guardamos solo elecciones anónimas en agregado (IDs, tiempos, clicks). Sin nombre, sin permisos, sin texto libre.
+      </div>
+      <div class="fineprint">
+        Esto es entretenimiento, no terapia. Si un “no” es no, el Oráculo no discute.
+      </div>
+    </footer>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
